@@ -1,0 +1,49 @@
+{
+  "lock": "2026Q3",
+  "sealedAt": "2026-10-24T20:12:32.971Z",
+  "infoCutoff": "2026-10-09",
+  "targetPeriodEnd": [
+    "2026-09-10",
+    "2026-10-10"
+  ],
+  "merkleRoot": "d795236636a04e96391f6e143ebe6220b51566977080aabfbf7eae6ea77dbede",
+  "leafOrder": "six meta hashes in the order of meta, then sha256(canonical(row)) per row sorted by (cik, arm)",
+  "meta": {
+    "preregistrationSha256": "9ac68e321956ace38036df7d9e6a617562237809ddc493c29da72d31a7723aa7",
+    "promptSha256": "f63c86c3cd1c0b70054ef3295ad83c9a75fcf0c205c8c7bf78f6021f6884d3e6",
+    "universeSha256": "3b3f81273176e4b72c59d145e9a95a4c4f63466220b5cf671672bfc72f1b91e2",
+    "voidSha256": "6d50b2ac36d4f8ec8b02dc1d5f29cce49f3bf5dad0b6dbe5608721aa0dc40575",
+    "codeSha256": "e5042da8614b182aff9a601e2ed17badf45f340d92380601fa8e4a9d69d7ce8d",
+    "packetsRoot": "a340f46947c52e43683d37385087b3282c0ac712e256583ebaaf464f43dfdc54"
+  },
+  "models": [
+    "gpt-6-luna",
+    "gpt-6.1-sol"
+  ],
+  "gitCommit": "3aa91aba7ff3187da96b857adb745dab86396ee3",
+  "counts": {
+    "universe": 2301,
+    "void": 241,
+    "companies": 2060,
+    "rows": 6478,
+    "byArm": {
+      "ai:gpt-6-luna": {
+        "rows": 2060,
+        "ok": 2060
+      },
+      "b1": {
+        "rows": 2059,
+        "ok": 2059
+      },
+      "b2": {
+        "rows": 2059,
+        "ok": 2059
+      },
+      "ai:gpt-6.1-sol": {
+        "rows": 300,
+        "ok": 299
+      }
+    }
+  },
+  "revealPolicy": "Rows are revealed with their Merkle proofs after the quarter is graded; none is published while its quarter is live."
+}

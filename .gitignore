@@ -1,0 +1,13 @@
+# dry runs never leave this machine
+dryrun/
+# private until the quarter is graded and revealed (commit-reveal): add these to a lock only at its reveal
+*/rows.jsonl
+*/leaves.json
+*/ai-*.jsonl
+*/baselines.jsonl
+*/universe.json
+*/void.json
+*/packets/
+# run logs stay local
+*.log
+*/*.log
