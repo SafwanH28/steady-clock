@@ -11,3 +11,5 @@ dryrun/
 # run logs stay local
 *.log
 */*.log
+# grading outputs hold the estimates: private until the reveal
+*/grade/
